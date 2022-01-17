@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class FibonacciCalculator {
 
+    /**
+     * Recursively computes and returns the value of the nth position of the Fibonacci sequence
+     * @param n the position within the Fibonacci series to be computed
+     * @return the value of the nth position of the Fibonacci series which has been computed
+     * @author Derek DiLeo
+     */
     public static int fibRecursive(int n) {
         if(n <= 1) {
             return n;
